@@ -1,0 +1,28 @@
+<div class="container">
+  <h2>Users Table</h2>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>Валюта</th>
+      <th>Январь</th>
+      <th>Март </th>
+      <th>Август</th>
+      <th>Ноябрь</th>
+    </tr>
+    </thead>
+    <tbody>
+    <ng-container *ngFor="let user of users | async">
+      <tr>
+        <td>{{user.currency}}</td>
+        <td>{{user.january | number:'0.1-2'}}</td>
+        <td>{{user.mach | number:'0.1-2'}}</td>
+        <td>{{user.august | number:'0.1-2'}}</td>
+        <td>{{user.november | number:'0.1-2'}}</td>
+      </tr>
+    </ng-container>
+    </tbody>
+  </table>
+</div>
+
+
+

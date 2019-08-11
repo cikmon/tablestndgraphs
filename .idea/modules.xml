@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tablestndgraphs/tablestndgraphs.iml" filepath="$PROJECT_DIR$/tablestndgraphs/tablestndgraphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tablestndgraphsUI/tablestndgraphsUI.iml" filepath="$PROJECT_DIR$/tablestndgraphsUI/tablestndgraphsUI.iml" />
+    </modules>
+  </component>
+</project>
